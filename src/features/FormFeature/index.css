@@ -42,7 +42,7 @@
   content: '';
 
   position: absolute;
-  right: 450px ;
+  right: 420px ;
   top: 250px;
  
   height: 106px;
@@ -57,7 +57,7 @@
   content: '';
   position: absolute;
 
-  right: 200px ;
+  right: 220px ;
   bottom: 350px;
 
   height: 106px;
@@ -75,7 +75,7 @@
   align-items: center;
 }
 .main-image {
-  margin-left: -170px;
+  margin-left: -250px;
   margin-top: 150px;
   width: 1139px;
   height: 900px;

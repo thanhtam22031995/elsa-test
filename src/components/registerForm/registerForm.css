@@ -1,6 +1,6 @@
 .registration {
   border-radius: 15px 15px 0px 0px;
-  width: 600px;
+  max-width: 100%;
   height: auto;
   background: #FFFFFF;
   box-shadow: 5px 5px 8px rgba(12, 36, 64, 0.3);
@@ -29,7 +29,7 @@
 }
 
 .inputField{
-  width: 511px;
+  width: 88%;
   height: 40px;
   font-size: 25px;
 
@@ -137,3 +137,66 @@
   margin: 0;
   padding: 0;
 }
+
+
+@media only screen and (min-width: 576px) {
+  .registration {
+    width: 500px;
+  }
+  
+  .registration h2{
+    width: 500px;
+  
+  }
+  .btn{
+    width: 430px;
+  }
+} 
+@media only screen and (min-width: 768px) {
+  .registration { 
+    width: 500px;
+  }
+  
+  .registration h2{
+    width: 500px;
+  }
+  .btn{
+    width: 430px;
+  }
+} 
+@media only screen and (min-width: 992px) {
+  .registration {
+    width: 500px;
+  }
+  
+  .registration h2{
+    width: 500px;
+  }
+  .btn{
+    width: 430px;
+  }
+} 
+@media only screen and (min-width: 1200px) {
+  .registration {
+    width: 500px;
+  }
+  
+  .registration h2{
+    width: 500px;
+  }
+  .btn{
+    width: 430px;
+  }
+} 
+@media only screen and (min-width: 1400px) {
+  .registration { 
+    width: 600px;
+  }
+  
+  .registration h2{
+    width: 600px;
+  }
+  .btn{
+    width: 530px;
+  }
+} 

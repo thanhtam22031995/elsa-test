@@ -20,7 +20,6 @@ function FormFeature(props) {
       <div className="container">
         <div className="row">
           <RegisterForm onSubmit={handleFormSubmit} />
-
           <img className="main-image" src="/images/Phone2.png" alt="" />
         </div>
         <img className="sub-image" src="/images/backGroundLogo.svg" alt="" />
