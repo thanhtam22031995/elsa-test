@@ -1,3 +1,36 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media only screen and (min-width: 576px) {
+  .container{
+    max-width: 540px ;
+  }
+} 
+@media only screen and (min-width: 768px) {
+  .container{
+    max-width: 720px;
+  }
+} 
+@media only screen and (min-width: 992px) {
+  .container{
+    max-width: 960px;
+  }
+} 
+@media only screen and (min-width: 1200px) {
+  .container{
+    max-width: 1140px;
+  }
+} 
+@media only screen and (min-width: 1400px) {
+  .container{
+    max-width: 1320px;
+  }
+} 
+
 .footer {
   font-family: 'Be Vietnam', sans-serif;
   padding: 60px 0;
@@ -12,7 +45,7 @@
 }
 
 .title  h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   margin: 0;
   color: #606060;
@@ -20,22 +53,29 @@
 }
 
 .title p {
-  font-size: 26px;
+  font-size: 20px;
   line-height: 1.5em;
   color: #606060;
-}
-
-.item-list {
-  margin: 0 -15px;
-  display: flex;
-  flex-flow: row wrap;
   
 }
 
-.item {
-  width: 25%;
-  text-align: center;
+.item-list {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  flex-flow: row wrap;
 }
+
+.item {
+  flex: 0 0 25%;
+  max-width: 25%;
+  text-align: center;
+  
+}
+.image {
+  padding: 0 20px;
+}
+
 
 @media only screen and (max-width: 1000px) {
   .item {
@@ -44,9 +84,11 @@
 }
 
 .item p {
-  font-size: 26px;
+  font-size: 20px;
   color: #606060;
   font-style: inherit;
+  text-align: start;
+  padding: 0 20px;
 }
 
 .item span {

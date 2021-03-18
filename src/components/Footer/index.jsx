@@ -13,27 +13,35 @@ function Footer(props) {
         </div>
         <div className="item-list">
           <div className="item">
-            <img src="images/section1.png" alt="" />
+            <div className="image">
+              <img src="images/section1.png" alt="" />
+            </div>
             <p>
               Trí tuệ nhân tạo trả về bạn số điểm
               <span>“CHUẨN BẢN XỨ"</span>
             </p>
           </div>
           <div className="item">
-            <img src="images/section2.png" alt="" />
+            <div className="image">
+              <img src="images/section2.png" alt="" />
+            </div>
             <p>
               <span>NGAY LẬP TỨC</span>, bạn biết mình phát âm sai ở đâu qua
               những gam màu trực quan sinh động.
             </p>
           </div>
           <div className="item">
-            <img src="images/section3.png" alt="" />
+            <div className="image">
+              <img src="images/section3.png" alt="" />
+            </div>
             <p>
               <span>CÔNG NGHỆ NHẬN DIỆN</span> giọng nói chuẩn đến từng âm tiết.
             </p>
           </div>
           <div className="item">
-            <img src="images/section4.png" alt="" />
+            <div className="image">
+              <img src="images/section4.png" alt="" />
+            </div>
             <p>
               ELSA sẽ&nbsp;
               <span>LẬP LỘ TRÌNH HỌC CÁ NHÂN HOÁ</span>&nbsp;dựa trên các chỉ số
