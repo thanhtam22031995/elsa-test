@@ -1,0 +1,139 @@
+.registration {
+  border-radius: 15px 15px 0px 0px;
+  width: 600px;
+  height: auto;
+  background: #FFFFFF;
+  box-shadow: 5px 5px 8px rgba(12, 36, 64, 0.3);
+  border-radius: 20px;
+  z-index: 50;
+}
+
+.registration h2{
+  width: 600px;
+  height: 130px;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  background: linear-gradient(81.84deg, #49DCE1 1.09%, #39A3FB 96.86%);
+  box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+  border-radius: 15px 15px 0px 0px;
+
+}
+
+.inputField{
+  width: 511px;
+  height: 40px;
+  font-size: 25px;
+
+  padding-left: 25px;
+
+  background: #FFFFFF;
+  border: 2px solid #57B3FF;
+  outline: none;  
+}
+.registration label{
+  display: flex;
+  align-items: center;
+
+  color:#06BAE8;
+  font-weight: 400;
+  font-size: 25px;
+
+  cursor: pointer;
+}
+
+.registration label > p {
+  margin-left: 10px;
+}
+.radiofiled,
+.radiofiled label  {
+  padding: 15px 15px 10px 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.radiofiled > label > input {
+ display: none;
+}
+
+.form {
+  padding: 0 0 28px 28px ;
+}
+.radiofiled label span {
+  position: relative;
+  line-height: 22px;
+}
+
+.radiofiled > label > span:before {
+  content: '';
+
+  position: absolute;
+  top: -10px;
+  left: -47px;
+
+  border: 2px solid #57B3FF;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+  
+}
+
+.radiofiled > label > span:after {
+  content: '';
+  background:  #57B3FF;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 3px;
+  left: -34px;
+  transition: 300ms;
+  opacity: 0;
+}
+
+.radiofiled label input:checked+span:after {
+  opacity: 1;
+}
+
+.btn{
+  width: 530px;
+  height: 74px;
+
+  font-weight: bold;
+  font-size: 30px;
+  color: #FFFFFF;
+
+  margin-top: 20px;
+  background: linear-gradient(80.25deg, #3DFFC8 1.31%, #40F6CF 15.32%, #49DCE1 38.61%, #57B3FF 68.19%);
+  box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: linear-gradient(80.25deg,#1abc9c ,#3498db)
+}
+.price {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #0bbae7;
+}
+
+.error {
+  color: red;
+  margin: 0;
+  padding: 0;
+}
