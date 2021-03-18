@@ -73,10 +73,12 @@
 .row {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 
 .main-image {
+
   max-width: 100%;
   z-index: 5;
 }
@@ -94,8 +96,8 @@
 
 .bigCircle {
   position: absolute;
-  right: 550px;
-  bottom: 125px;
+  right: 690px;
+  bottom: 100px;
 
   Width: 156px;
   Height: 156px;
@@ -106,7 +108,7 @@
 }
 .smallCircle {
   position: absolute;
-  right: 750px;
+  right: 850px;
   bottom: 325px;
 
   Width: 30px;
