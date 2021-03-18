@@ -4,6 +4,7 @@
   background: #0C2440;
   z-index: 3;
   overflow: hidden;
+  padding: 60px 0;
 }
 .container {
   width: 100%;
@@ -57,8 +58,8 @@
   content: '';
   position: absolute;
 
-  right: 220px ;
-  bottom: 350px;
+  right: 290px ;
+  bottom: 150px;
 
   height: 106px;
   width: 106px;
@@ -71,14 +72,12 @@
 
 .row {
   display: flex;
-  position: relative; 
   align-items: center;
 }
+
+
 .main-image {
-  margin-left: -250px;
-  margin-top: 150px;
-  width: 1139px;
-  height: 900px;
+  max-width: 100%;
   z-index: 5;
 }
 
@@ -93,11 +92,9 @@
 }
 
 
-.row::before {
-  content: '';
-
+.bigCircle {
   position: absolute;
-  right: 450px;
+  right: 550px;
   bottom: 125px;
 
   Width: 156px;
@@ -107,11 +104,9 @@
 
   background: linear-gradient(32.47deg, #31BFFF 2.02%, #1CF1DC 114.74%);
 }
-.row::after {
-  content: '';
-
+.smallCircle {
   position: absolute;
-  right: 650px;
+  right: 750px;
   bottom: 325px;
 
   Width: 30px;

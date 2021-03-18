@@ -19,16 +19,18 @@ function FormFeature(props) {
     <div className="formSection">
       <div className="container">
         <div className="row">
-          <RegisterForm onSubmit={handleFormSubmit} />
+          <RegisterForm className="form" onSubmit={handleFormSubmit} />
           <img className="main-image" src="/images/Phone2.png" alt="" />
         </div>
         <img className="sub-image" src="/images/backGroundLogo.svg" alt="" />
+        <div className="smallCircle"></div>
+        <div className="bigCircle"></div>
       </div>
       {!!open && (
         <div className="modal" onClick={handleOnClose}>
           <div class="modal-content">
             <div className="modal__title">
-              <p>Elsa Speak</p>
+              <p>ELSA Speak</p>
               <span onClick={handleOnClose} className="close">
                 &times;
               </span>
